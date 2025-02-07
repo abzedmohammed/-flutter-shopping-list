@@ -32,28 +32,3 @@ class Grocery extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-// Padding(
-//       padding: const EdgeInsets.only(bottom: 30.0),
-//       child: Row(
-//         crossAxisAlignment: CrossAxisAlignment.center,
-//         key: ValueKey(groceryItem.id),
-//         children: [
-//           Container(
-//             width: 35,
-//             height: 35,
-//             color: groceryItem.category.color,
-//           ),
-//           SizedBox(
-//             width: 20,
-//           ),
-//           Text(groceryItem.name),
-//           Spacer(),
-//           Text(groceryItem.quantity.toString()),
-//         ],
-//       ),
-//     );
